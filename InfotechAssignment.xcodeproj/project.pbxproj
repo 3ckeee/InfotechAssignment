@@ -11,6 +11,7 @@
 		10CA0102297AD9CC00B95B86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CA0101297AD9CC00B95B86 /* ContentView.swift */; };
 		10CA0104297AD9CE00B95B86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10CA0103297AD9CE00B95B86 /* Assets.xcassets */; };
 		10CA0108297AD9CE00B95B86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10CA0107297AD9CE00B95B86 /* Preview Assets.xcassets */; };
+		10FA42BB297B299600722C7E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FA42BA297B299600722C7E /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		10CA0103297AD9CE00B95B86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10CA0105297AD9CE00B95B86 /* InfotechAssignment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InfotechAssignment.entitlements; sourceTree = "<group>"; };
 		10CA0107297AD9CE00B95B86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		10FA42BA297B299600722C7E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				10CA00FF297AD9CC00B95B86 /* InfotechAssignmentApp.swift */,
 				10CA0101297AD9CC00B95B86 /* ContentView.swift */,
+				10FA42BA297B299600722C7E /* LoginView.swift */,
 				10CA0103297AD9CE00B95B86 /* Assets.xcassets */,
 				10CA0105297AD9CE00B95B86 /* InfotechAssignment.entitlements */,
 				10CA0106297AD9CE00B95B86 /* Preview Content */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10FA42BB297B299600722C7E /* LoginView.swift in Sources */,
 				10CA0102297AD9CC00B95B86 /* ContentView.swift in Sources */,
 				10CA0100297AD9CC00B95B86 /* InfotechAssignmentApp.swift in Sources */,
 			);
