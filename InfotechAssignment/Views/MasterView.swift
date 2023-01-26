@@ -14,18 +14,16 @@ struct MasterView: View {
     var body: some View {
         NavigationView {
             List(networkManager.actors.indices, id: \.self) { index in
-                VStack(alignment: .leading) {
-                    Text(networkManager.actors[index].name)
-                        .font(.headline)
-                    Text(networkManager.actors[index].description)
-                        .font(.subheadline)
-                    ImageView(url: networkManager.actors[index].image)
-                }
-                .onTapGesture {
+                NavigationLink(destination: DetailView(actor: self.networkManager.actors[index])) {
+                    VStack(alignment: .leading) {
+                        Text(self.networkManager.actors[index].name)
+                            .font(.headline)
+                        Text(self.networkManager.actors[index].description)
+                            .font(.subheadline)
+                        ImageView(url: self.networkManager.actors[index].image)
+                    }
                 }
             }
-            
-            
             .navigationBarTitle("Actors")
             .onAppear(){
                 self.networkManager.downloadData(completion: { result in

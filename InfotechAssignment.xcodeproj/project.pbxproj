@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10C5D92C2981D47D00BC348E /* Views in Resources */ = {isa = PBXBuildFile; fileRef = 10C5D9272981D47C00BC348E /* Views */; };
-		10C5D92D2981D47D00BC348E /* Logic in Resources */ = {isa = PBXBuildFile; fileRef = 10C5D9282981D47C00BC348E /* Logic */; };
 		10CA0100297AD9CC00B95B86 /* InfotechAssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CA00FF297AD9CC00B95B86 /* InfotechAssignmentApp.swift */; };
+		10CA0102297AD9CC00B95B86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CA0101297AD9CC00B95B86 /* ContentView.swift */; };
 		10CA0104297AD9CE00B95B86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10CA0103297AD9CE00B95B86 /* Assets.xcassets */; };
 		10CA0108297AD9CE00B95B86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10CA0107297AD9CE00B95B86 /* Preview Assets.xcassets */; };
+		10E85D802981B6FF00F9EC3A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E85D7F2981B6FF00F9EC3A /* DetailView.swift */; };
+		10FA42BB297B299600722C7E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FA42BA297B299600722C7E /* LoginView.swift */; };
+		10FA42BD297B2FAD00722C7E /* CredentialsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FA42BC297B2FAD00722C7E /* CredentialsManager.swift */; };
+		10FA42BF297B36F300722C7E /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FA42BE297B36F300722C7E /* Networking.swift */; };
+		10FA42C1297B384500722C7E /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FA42C0297B384500722C7E /* Actor.swift */; };
+		10FA42C3297B38EB00722C7E /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FA42C2297B38EB00722C7E /* MasterView.swift */; };
+		10FA42C7297B3AEA00722C7E /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FA42C6297B3AEA00722C7E /* ImageView.swift */; };
+		10FA42C9297B45B500722C7E /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FA42C8297B45B500722C7E /* ActivityIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		10C5D9272981D47C00BC348E /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Views; path = ../Views; sourceTree = "<group>"; };
-		10C5D9282981D47C00BC348E /* Logic */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Logic; path = ../Logic; sourceTree = "<group>"; };
 		10CA00FC297AD9CC00B95B86 /* InfotechAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfotechAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10CA00FF297AD9CC00B95B86 /* InfotechAssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfotechAssignmentApp.swift; sourceTree = "<group>"; };
+		10CA0101297AD9CC00B95B86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		10CA0103297AD9CE00B95B86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10CA0105297AD9CE00B95B86 /* InfotechAssignment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InfotechAssignment.entitlements; sourceTree = "<group>"; };
 		10CA0107297AD9CE00B95B86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		10E85D7F2981B6FF00F9EC3A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		10FA42BA297B299600722C7E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		10FA42BC297B2FAD00722C7E /* CredentialsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsManager.swift; sourceTree = "<group>"; };
+		10FA42BE297B36F300722C7E /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		10FA42C0297B384500722C7E /* Actor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actor.swift; sourceTree = "<group>"; };
+		10FA42C2297B38EB00722C7E /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
+		10FA42C6297B3AEA00722C7E /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		10FA42C8297B45B500722C7E /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +68,10 @@
 		10CA00FE297AD9CC00B95B86 /* InfotechAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				10FA42C8297B45B500722C7E /* ActivityIndicator.swift */,
 				10CA00FF297AD9CC00B95B86 /* InfotechAssignmentApp.swift */,
-				10C5D9272981D47C00BC348E /* Views */,
-				10C5D9282981D47C00BC348E /* Logic */,
+				10FA42C4297B38F800722C7E /* Views */,
+				10FA42C5297B390D00722C7E /* Logic */,
 				10CA0103297AD9CE00B95B86 /* Assets.xcassets */,
 				10CA0105297AD9CE00B95B86 /* InfotechAssignment.entitlements */,
 				10CA0106297AD9CE00B95B86 /* Preview Content */,
@@ -70,6 +85,28 @@
 				10CA0107297AD9CE00B95B86 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		10FA42C4297B38F800722C7E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				10CA0101297AD9CC00B95B86 /* ContentView.swift */,
+				10FA42BA297B299600722C7E /* LoginView.swift */,
+				10FA42C6297B3AEA00722C7E /* ImageView.swift */,
+				10E85D7F2981B6FF00F9EC3A /* DetailView.swift */,
+				10FA42C2297B38EB00722C7E /* MasterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		10FA42C5297B390D00722C7E /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				10FA42C0297B384500722C7E /* Actor.swift */,
+				10FA42BE297B36F300722C7E /* Networking.swift */,
+				10FA42BC297B2FAD00722C7E /* CredentialsManager.swift */,
+			);
+			path = Logic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,10 +167,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10C5D92D2981D47D00BC348E /* Logic in Resources */,
 				10CA0108297AD9CE00B95B86 /* Preview Assets.xcassets in Resources */,
 				10CA0104297AD9CE00B95B86 /* Assets.xcassets in Resources */,
-				10C5D92C2981D47D00BC348E /* Views in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +179,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10FA42C7297B3AEA00722C7E /* ImageView.swift in Sources */,
+				10FA42BD297B2FAD00722C7E /* CredentialsManager.swift in Sources */,
+				10FA42BF297B36F300722C7E /* Networking.swift in Sources */,
+				10E85D802981B6FF00F9EC3A /* DetailView.swift in Sources */,
+				10FA42C3297B38EB00722C7E /* MasterView.swift in Sources */,
+				10FA42BB297B299600722C7E /* LoginView.swift in Sources */,
+				10FA42C1297B384500722C7E /* Actor.swift in Sources */,
+				10CA0102297AD9CC00B95B86 /* ContentView.swift in Sources */,
+				10FA42C9297B45B500722C7E /* ActivityIndicator.swift in Sources */,
 				10CA0100297AD9CC00B95B86 /* InfotechAssignmentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +317,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "IA Actors";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -291,7 +336,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sk.erikGiertl.InfotechAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,6 +358,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "IA Actors";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -329,7 +377,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sk.erikGiertl.InfotechAssignment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

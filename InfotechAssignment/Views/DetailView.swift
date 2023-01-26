@@ -10,6 +10,7 @@ import SwiftUI
 
 struct DetailView: View {
     var actor: Actor
+    @State private var backgroundColor = Color.white
 
     var body: some View {
         VStack(alignment: .leading) {
@@ -31,6 +32,20 @@ struct DetailView: View {
             Text("Wiki: \(actor.wiki)")
                 .font(.body)
         }
+        .background(backgroundColor)
+                .navigationBarTitle("Detail Page")
+                .navigationBarItems(trailing: Button(action: {
+                    self.backgroundColor = Color.random()
+                }, label: {
+                    Text("Change BG")
+                }))
+            }
+        }
+
+extension Color {
+    static func random() -> Color {
+        return Color(red: .random(in: 0...1),
+                     green: .random(in: 0...1),
+                     blue: .random(in: 0...1))
     }
 }
-

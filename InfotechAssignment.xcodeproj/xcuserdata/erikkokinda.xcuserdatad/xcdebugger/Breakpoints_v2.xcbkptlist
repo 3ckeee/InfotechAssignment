@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "44A45A14-4C80-466F-8CB5-D367A893BF3B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "501F85D0-1D17-4D79-82A7-AADD6D3489E5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InfotechAssignment/Logic/Networking.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "downloadData(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2BFFB5DE-165B-44C1-A7D3-827CB2541507"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InfotechAssignment/Logic/Networking.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "downloadData(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2BFFB5DE-165B-44C1-A7D3-827CB2541507 - 8d4b8c0931866c28"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InfotechAssignment.NetworkManager.downloadData(completion: (Swift.Optional&lt;InfotechAssignment.Result&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "InfotechAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erikkokinda/Desktop/Projects/InfotechAssignment/InfotechAssignment/Logic/Networking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "1436">
+               </Location>
+               <Location
+                  uuid = "2BFFB5DE-165B-44C1-A7D3-827CB2541507 - 3f42ce67507b2d76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in InfotechAssignment.NetworkManager.downloadData(completion: (Swift.Optional&lt;InfotechAssignment.Result&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "InfotechAssignment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erikkokinda/Desktop/Projects/InfotechAssignment/InfotechAssignment/Logic/Networking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "285">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F522F8DF-374F-4BD3-BDE6-DAB403F339FD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InfotechAssignment/Logic/Networking.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "downloadData(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
